@@ -13,7 +13,7 @@ COPY . .
 
 # 默认环境变量
 ENV PORT=8080
-ENV ENV=local
+ENV APP_ENV=local
 
 EXPOSE 8080
 
